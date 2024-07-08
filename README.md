@@ -122,7 +122,26 @@ Represents a restaurant, which can have multiple recipes.
 5. **Run the development server:**
    ```bash
    python manage.py runserver
+### Running with Docker
+1. **Build the Docker images:**
+   ```bash
+   Copy code
+   docker-compose build
+2. **Run the Docker containers:**
+   ```bash
+   Copy code
+   docker-compose up
+3. **Access the application at http://localhost:8000.**
+### API Documentation
+The Tomato API includes comprehensive documentation using Swagger and Redoc.
 
+Swagger documentation: http://localhost:8000/swagger/
+Redoc documentation: http://localhost:8000/redoc/
+### Running Tests
+Run the following command to execute the unit tests:
+
+   ```bash
+   python manage.py test
 
 
 
