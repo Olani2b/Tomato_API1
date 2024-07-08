@@ -109,6 +109,21 @@ Represents a restaurant, which can have multiple recipes.
    git clone https://github.com/Olani2b/Tomato_API1.git
    cd <repository_directory>
 2. **Create a virtual environment and activate it:**
+   ```bash
    python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. **Install the dependencies:**
+```bash
+pip install -r requirements.txt
+4. **apply migrations:**
+```bash
+   python manage.py makemigrations
+   python manage.py migrate
+5. **Run the development server:**
+```bash
+   python manage.py runserver
+
+
+
+
 
