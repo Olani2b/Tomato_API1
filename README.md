@@ -108,3 +108,7 @@ Represents a restaurant, which can have multiple recipes.
    ```bash
    git clone https://github.com/Olani2b/Tomato_API1.git
    cd <repository_directory>
+2. **Create a virtual environment and activate it:**
+   python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
