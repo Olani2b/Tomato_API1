@@ -6,14 +6,10 @@ Welcome to the Tomato API project! This application provides a simple and effici
 
 - [About the App](#about-the-app)
 - [Models](#models)
-- [API Endpoints](#api-endpoints)
 - [Setup and Installation](#setup-and-installation)
 - [Running with Docker](#running-with-docker)
-- [Accessing the APIs](#accessing-the-apis)
 - [API Documentation](#api-documentation)
 - [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About the App
 
@@ -122,7 +118,7 @@ Represents a restaurant, which can have multiple recipes.
 5. **Run the development server:**
    ```bash
    python manage.py runserver
-### Running with Docker
+## Running with Docker
 1. **Build the Docker images:**
    ```bash
    Copy code
@@ -132,12 +128,12 @@ Represents a restaurant, which can have multiple recipes.
    Copy code
    docker-compose up
 3. **Access the application at http://localhost:8000.**
-### API Documentation
+## API Documentation
 The Tomato API includes comprehensive documentation using Swagger and Redoc.
 
 Swagger documentation: http://localhost:8000/swagger/
 Redoc documentation: http://localhost:8000/redoc/
-### Running Tests
+## Running Tests
 Run the following command to execute the unit tests:
 
    ```bash
