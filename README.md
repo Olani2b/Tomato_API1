@@ -106,5 +106,5 @@ Represents a restaurant, which can have multiple recipes.
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Olani2b/Tomato_API1.git
    cd <repository_directory>
