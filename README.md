@@ -121,11 +121,9 @@ Represents a restaurant, which can have multiple recipes.
 ## Running with Docker
 1. **Build the Docker images:**
    ```bash
-   Copy code
    docker-compose build
 2. **Run the Docker containers:**
    ```bash
-   Copy code
    docker-compose up
 3. **Access the application at http://localhost:8000.**
 ## API Documentation
