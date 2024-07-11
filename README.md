@@ -6,14 +6,10 @@ Welcome to the Tomato API project! This application provides a simple and effici
 
 - [About the App](#about-the-app)
 - [Models](#models)
-- [API Endpoints](#api-endpoints)
 - [Setup and Installation](#setup-and-installation)
 - [Running with Docker](#running-with-docker)
-- [Accessing the APIs](#accessing-the-apis)
 - [API Documentation](#api-documentation)
 - [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About the App
 
@@ -106,5 +102,41 @@ Represents a restaurant, which can have multiple recipes.
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Olani2b/Tomato_API1.git
    cd <repository_directory>
+2. **Create a virtual environment and activate it:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. **Install the dependencies:**
+   ```bash
+   pip install -r requirements.txt
+4. **apply migrations:**
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+5. **Run the development server:**
+   ```bash
+   python manage.py runserver
+## Running with Docker
+1. **Build the Docker images:**
+   ```bash
+   docker-compose build
+2. **Run the Docker containers:**
+   ```bash
+   docker-compose up
+3. **Access the application at http://localhost:8000.**
+## API Documentation
+The Tomato API includes comprehensive documentation using Swagger and Redoc.
+
+Swagger documentation: http://localhost:8000/swagger/
+Redoc documentation: http://localhost:8000/redoc/
+## Running Tests
+Run the following command to execute the unit tests:
+
+   ```bash
+   python manage.py test
+
+
+
+
